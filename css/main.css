@@ -1,0 +1,131 @@
+body,html{
+    height: 100%;
+    margin: 0px;
+}
+
+nav li{
+    display:inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-image: radial-gradient(rgb(66, 54, 54),rgb(113, 148, 56),rgb(96, 38, 114));
+    margin: 0;
+    list-style-type:none;
+    width: 100%;
+    padding: 5px;
+}
+
+nav a:hover{
+    color: aqua;
+}
+
+.profile-image{
+    background-image:linear-gradient(rgba(163, 24, 24, 0.5),rgba(47, 134, 44, 0.5)),url("../images/space.jpg");
+    height: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.profile-text{ 
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#image{
+    width: 100px;
+    border-radius: 50%;
+    border: 5px;
+}
+
+#main{
+    width:100%;
+    height: 100%;
+    padding-left: 0px;
+    padding-top: 0px;
+    background-image: linear-gradient(rgb(113, 148, 56),rgb(75, 75, 231),rgb(173, 98, 104));
+}
+
+#image{
+    width: 100px;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.article{
+    Float: left;
+    right: 5px;
+    margin-top: 30px;
+    bottom: 5px;
+    width:  65%;
+    margin-left: 25px;
+    height: 80%;
+}
+
+.article_one{
+    FLoat: left;
+    margin-top: 100px;
+    width: 65%;
+    right: 5px;
+    margin-left: 25px;
+}
+.text{
+    width: 150%;
+}
+.side{
+    margin-left: 25px;
+    left: 5px;
+    top: 10%;
+    bottom: 5px;
+    width: 29%;
+    float: right;
+    height: 100%;
+}
+
+.side ul{
+    width: 100%;
+    margin-right: 30px;
+    list-style-type:none;
+
+}
+form{
+    margin-top: 25px;
+}
+
+textarea, input{
+    background-color: rgb(240, 249, 252);
+    border-radius: 5px;
+    padding: 10px;
+    margin:10px;
+}
+
+.side-articles{
+    margin-top:85px;
+}
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    height: 8vh;
+    margin: 0px;
+    position: fixed;
+}
+
+footer div{
+    text-align: center;
+    color: white;
+}
+
+ footer hr{
+    margin-top: 0px;
+    height: 30px;
+    border: 0px;
+    box-shadow: inset 0px 20px 20px -15px white
+}

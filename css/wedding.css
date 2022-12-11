@@ -1,0 +1,24 @@
+body,html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(rgb(113, 148, 56),rgb(75, 75, 231),rgb(173, 98, 104));
+}
+
+#main{
+    width: 100%;
+    text-align: center
+}
+
+.fade-in-image { 
+    animation: fadeIn 5s; 
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50%{opacity: .5;}
+    100% { opacity: 1; }
+  }
+
